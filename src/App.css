@@ -7,6 +7,87 @@
   pointer-events: none;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+}
+
+.main-container{
+  background-color: #edeff3;
+}
+.container{
+  padding: 5rem;
+  background-color: #fff;
+  
+}
+.main-container{
+  padding: 1rem;
+  background-color: #eff1f5;
+}
+.CreateAd{
+  border-radius: 2px solid #000;
+  background-color: #fff;
+  padding: 2rem;
+}
+.main-contaner{
+  padding: 5rem;
+}
+/* .row1{
+  width: 50%;
+} */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub-main1 {
+  flex: 50%;
+}
+
+.sub-main2 {
+  flex: 50%;
+  height: 3rem;
+}
+.description{
+  margin-left: 1rem;
+  height: 3rem;
+}
+
+.submit-button{
+  margin-left: 5px;
+}
+.checkbox{
+  margin-right: 5px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  /* float: right; */
+  text-align: right;
+}
+
+/* .flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+} */
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+@media (max-width: 800px) {
+  .sub-main1, .sub-main2 {
+    flex: 100%;
+  }
+  .main-contaner{
+    padding: 0;
+  } 
+  /* .form-control{
+    display: block;
+    width: 100%;
+  } */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
